@@ -1,0 +1,5 @@
+defaultProject: my-proy-erickson-pamo
+defaultLocation: southamerica-west1
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0
