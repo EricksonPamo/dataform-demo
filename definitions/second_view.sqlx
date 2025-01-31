@@ -1,8 +1,13 @@
 config {
-    type: "table",
-    name: "source",
-    description: "Description of the table",
-    tags: ["favourite", "least_liked"],
+
+  type: "view",
+  name: "source",
+  assertions: {
+    uniqueKey: ["fruit"],
+    rowConditions: [
+      'count > 0',
+    ]
+  }
 }
 
 SELECT
